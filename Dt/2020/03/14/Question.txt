@@ -1,7 +1,7 @@
- ProgramID- 12612 Solved By 0 Users  SkillRack
-
-Time Left: 00:24:48
+ ProgramID- 12612
+ 
 Rotate Values with Unit Digit
+
 The program must accept the integer values in a matrix of size R*C. Then the program must rotate only the values in the border of the matrix having the same unit digit as the value in the bottom right corner element of the matrix by one position in clockwise direction.
 
 Boundary Condition(s):
