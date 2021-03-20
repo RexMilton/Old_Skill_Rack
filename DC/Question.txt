@@ -1,5 +1,7 @@
 Daily Challenge ProgramID- 12681
+
 Linked List - deleteThirdNode
+
 The function/method deleteThirdNode accepts an argument - head, it represents the head of a singly linked list.
 
 The function/method deleteThirdNode must delete the 3rd node in the given singly linked list and then return the revised head of the singly linked list.
