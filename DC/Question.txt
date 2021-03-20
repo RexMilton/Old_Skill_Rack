@@ -11,11 +11,15 @@ Your task is to implement the function deleteThirdNode so that it passes all the
 Note: The number of nodes in the given linked list is always greater than or equal to 3.
 
 The following structure is used to represent the Node and is already defined in the default code (Do not write this definition again in your code).
+
+
 struct Node
 {
     int val;
     struct Node *next;
 };
+
+
 IMPORTANT: Do not write the main() function as it is already defined.
 
 Example Input/Output 1:
