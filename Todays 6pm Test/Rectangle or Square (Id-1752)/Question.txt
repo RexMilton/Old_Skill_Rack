@@ -1,7 +1,6 @@
 Rectangle or Square (Id-1752)
 
 Vignesh is very much interested in Geometry and he was reading about Rectangles and Squares. He wanted a program which will print Rectangle or Square based on the perimeter P and the area A provided.
-
 Please help Vignesh by completing the program for him. (Eventhough Square is a Rectangle, if length is equal to breadth, the output must be Square).
 
 Input Format:
