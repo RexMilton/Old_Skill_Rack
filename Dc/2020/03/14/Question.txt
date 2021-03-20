@@ -1,5 +1,7 @@
 ProgramID- 12763 
+
 Modify Submatrices Diagonally
+
 The program must accept an integer matrix of size R*C and an integer K as the input. The values of R and C are always divisible by K. The given R*C matrix contains only 0s and 1s. The program must form an alphabet matrix of size (R/K)*(C/K) starting from "a" being present in the bottom left corner. Then the program must modify the submatrices of size K*K diagonally. In each integer submatrix of size K*K, all 1s must be replaced with the related upper case alphabet in the alphabet matrix and all 0s must be replaced with the related lower case alphabet in the alphabet matrix. If "z" has reached while filling the alphabet matrix then "a" must be considered as the next alphabet in circular fashion while forming the alphabet matrix. Finally, the program must print the integer matrix replaced with the corresponding alphabets as the output.
 
 Boundary Condition(s):
