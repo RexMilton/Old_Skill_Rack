@@ -1,135 +1,70 @@
-Daily Test   Program Id-12785
+Daily Test   Program Id-12756 
 
-Find Time from Matrix 
+Path - Minimum Sum 
 
-The program must accept a matrix of size 5*17 representing a grid of LEDs as the input. The matrix consists of 0s and 1s, where 1 indicates that the LED is ON and 0 indicates that the LED is OFF. 
-The matrix represents a time T in HH:MM format (in 24-hr). 
-- The columns 1, 2 and 3 represent the first H.
-- The 4th column represents the space between the two H's.
-- The columns 5, 6 and 7 represent the second H. 
-- The 8th column represents the space between the second H and the colon (:). 
-- The 9th column represents the colon (:). 
-- The 10th column represents the space between the colon (:) and the first M.
-- The columns 11, 12 and 13 represent the first M. 
-- The 14th column represents the space between the two M's. 
-- The columns 15, 16 and 17 represent the second M. Finally, the program must print the time T as the output. 
+The program must accept an integer matrix of size R*C and N integers as the input. All integers in the matrix are unique and the given N integers are always present in the matrix. 
+The program must print the sum of all the integers present in the path by connecting the given N integers in the matrix based on the following conditions. 
+- The path must be formed by connecting the given N integers in the order of their occurrence. 
+- Only horizontal and vertical movements are allowed. 
+- If two integers are present in the same row or column, then the two integers must be connected directly. 
+Else the two integers are connected by the path which has exactly one change in the direction and gives the minimum sum. 
 
-Note: 
-The given matrix always represents a valid time. 
-The below 5 lines represent the digit 0. 
-111 
-101 
-101 
-101 
-111 
-The below 5 lines represent the digit 1. 
-001 
-001 
-001 
-001 
-001 
-The below 5 lines represent the digit 2. 
-111 
-001
-111 
-100 
-111 
-The below 5 lines represent the digit 3.
-111 
-001 
-111 
-001 
-111 
-The below 5 lines represent the digit 4. 
-101 
-101 
-111 
-001 
-001 
-The below 5 lines represent the digit 5. 
-111 
-100 
-111 
-001 
-111 
-The below 5 lines represent the digit 6. 
-111 
-100 
-111 
-101 
-111 
-The below 5 lines represent the digit 7. 
-111 
-001 
-001 
-001 
-001 
-The below 5 lines represent the digit 8. 
-111 
-101 
-111 
-101 
-111 
-The below 5 lines represent the digit 9. 
-111 
-101 
-111 
-001 
-111 
+Boundary Condition(s): 
+2 <= R, C <= 50 
+2 <= N <= 100 
+1 <= Matrix element value <= 10^4 
 
 Input Format: 
 
-The first 5 lines containing a matrix representing the grid of 5*17 LEDs.
+The first line contains R and C separated by a space. The next R lines, each contains C integers separated by a space. The (R+2)nd line contains N. The (R+3)rd line contains N integers separated by a space. 
 
 Output Format: 
 
-The first line contains the time T. 
+The first line contains an integer representing the sum of all the integers present in the path by connecting the given N integers. 
 
 Example Input/Output 1: 
 
 Input: 
 
-11101110001110111 
-10100010100010100 
-10101110001110111 
-10101000100010001 
-11101110001110111 
+4 4 
+24 20 14 23 
+15 10 18 13 
+12 26 25 16 
+19 21 11 22 
+3 
+10 13 12 
 
 Output: 
 
-02:35 
+96 
 
 Explanation: 
-
-In the given matrix, the values of HH and MM are 02 and 35 respectively. 
-So 02:35 is printed as the output. 
+The path must be formed by connecting the following three integers. 
+10 -> 13 -> 12 
+10 and 13 are present in the same row. 
+So they are connected as 10 -> 18 -> 13. 13 and 12 are NOT present in the same row or column. 
+There are two possible ways to connect 13 and 12 which are given below. 
+13 -> 18 -> 10 -> 15 -> 12 (The sum of integers present in the path is 68). 
+13 -> 16 -> 25 -> 26 -> 12 (The sum of integers present in the path is 92). 
+So the path with the minimum sum 68 is considered. The entire path by connecting the given 3 integers is given below. 
+10 -> 18 -> 13 -> 18 -> 10 -> 15 -> 12 The sum of integers present in the above path is 96, 
+which is printed as the output. 
 
 Example Input/Output 2: 
 
-Input:
-
-00101110001010111 
-00101000101010101 
-00101110001110111 
-00101010100010001
-00101110000010111 
-
-Output: 
-
-16:49 
-
-Example Input/Output 3: 
-
 Input: 
 
-11101110001110111 
-10100010101010101 
-10100010001010111 
-10100010101010101 
-11100010001110111 
+5 6 
+23 24 86 46 49 78 
+19 35 54 59 36 14 
+40 84 11 10 70 87 
+79 16 32 75 68 39 
+61 50 41 26 63 48 
+4 
+59 16 78 41 
 
 Output: 
 
-07:08 
+903 
 
 Max Execution Time Limit: 50 millisecs
