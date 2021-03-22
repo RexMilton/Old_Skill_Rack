@@ -1,4 +1,4 @@
-Daily Challenge ProgramID- 12932 Solved By 75 Users  SkillRack
+Daily Challenge ProgramID- 12932
 Shift Characters Upwards
 The program must accept N string values of equal length L and an integer K as the input. The program must perform the following operation K times.
 - Shift the middle L-2 characters towards the top by one position among the given N string values.
