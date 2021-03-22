@@ -9,5 +9,5 @@ for i in range(a):
         k=z[i][j]
         if 0<j<l-1:
             k=z[(i+m)%a][j]
-        print(k,end='')
+        print(k,end="")
     print()
