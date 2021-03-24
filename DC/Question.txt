@@ -1,58 +1,33 @@
-Daily Challenge  Program Id-12718
+Daily Challenge  Program Id-12700
 
-Integers - Missing Range 
+Interface Implementation - Pair 
 
-The program must accept N sorted (in ascending order) integers as the input. The program must print the missing range of values as the output. 
-If none of the values are missing the program must print -1 as the output. 
-
-Boundary Condition(s):
-
-2 <= N <= 10^4 
-
-Input Format: 
-
-The first line contains N. The second line contains N integer values separated by a space. 
-
-Output Format: 
-
-The first line contains -1 or the missing range of values separated by a space. 
+You must define the class Node which implements the interface Pair so that program runs successfully. The class Hello accepts two integers as the input. 
+It prints the HCF of the given two integers as shown in the Example Input/Output section. Then it prints the string value "YES" if the given two integers are co-prime. 
+Else it prints the string value "NO". 
 
 Example Input/Output 1: 
 
 Input: 
 
-5 
-1 2 5 6 12 
+21 22 
 
 Output: 
 
-3-4 7-11 
+HCF: 1 
+YES 
 
-Explanation: 
-
-The missing values are 3,4. Hence the range is printed as 3-4. 
-The next missing values are 7,8,9,10,11. Hence the range is printed as 7-11. 
+Explanation: The HCF of the given two integers is 1. So the given integers are co-prime. Hence the output is HCF: 1 YES 
 
 Example Input/Output 2: 
 
 Input: 
 
-6 
-1 2 3 5 6 7 
+21 27 
 
 Output: 
 
-4-4 
-
-Example Input/Output 3: 
-
-Input: 
-
-7 
-1 2 3 4 5 6 7 
-
-Output: 
-
--1 
+HCF: 3 
+NO 
 
 Max Execution Time Limit: 50 millisecs
