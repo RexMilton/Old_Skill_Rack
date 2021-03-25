@@ -55,9 +55,9 @@ o 50 31 1 45 88
 Output: 
 
 1616 
-Computer Example 
+Computer 
 
-Input/Output 3: 
+Example Input/Output 3: 
 
 Input: 
 
