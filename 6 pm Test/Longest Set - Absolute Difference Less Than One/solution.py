@@ -42,7 +42,7 @@ def longestAr(n, arr):
   
 # Driver Code
 if __name__ == '__main__':
-    n = 8
-    arr = [2, 2, 3, 5, 5, 6, 6, 6]
+    n = int(input())
+    arr = list(map(int,input().split()))
     maxLen = longestAr(n, arr)
     print(maxLen)
