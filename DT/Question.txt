@@ -3,7 +3,8 @@ Daily Test
 ProgramID- 12716
  
 Combinations - Insert + or -
-The program must accept N integers as the input. The program must insert + or - between adjacent integers so that the value of the expression is S and print the count of such possible combinations.
+The program must accept N integers as the input. The program must insert + or - between adjacent integers so that the value of the expression is S and print the count of 
+such possible combinations.
 
 Boundary Condition(s):
 2 <= N <= 20
