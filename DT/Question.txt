@@ -3,7 +3,8 @@ Daily Test
 ProgramID- 12598
  
 HCF Triplets
-The program must accept 3 array elements with the size of the arrays as A, B and C. The program must find the count N of the triplets P, Q and R where P belongs to A, Q belongs to B and R belongs to C and one of them is the HCF of the other two values.
+The program must accept 3 array elements with the size of the arrays as A, B and C. The program must find the count N of the triplets P, Q and R where P belongs to A, Q 
+belongs to B and R belongs to C and one of them is the HCF of the other two values.
 
 Boundary Condition(s):
 1 <= A, B, C <= 100
