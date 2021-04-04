@@ -1,7 +1,8 @@
 Minimum Purchase Count - Free Offer (Id-2768)
 
 A shop sells N items. Due to a festival offer, a customer if he purchases an item which is of price P, he will also get items whose price is either P+1 or P+2 or P+3 or P+4.
-Given the price of N items, the program must print the minimum number of times the customer must purchase to get one count purchased in all the available items making use of this offer.
+Given the price of N items, the program must print the minimum number of times the customer must purchase to get one count purchased in all the available items making use of
+this offer.
 
 Input Format:
 The first line will contain N.
