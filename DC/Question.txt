@@ -3,7 +3,8 @@ Daily Challenge
 ProgramID- 12943
  
 Spiral Submatrix - String
-The program must accept a character matrix of size R*C and a string S as the input. The length of the string S is always 9. The program must print YES if the string S is present in the spiral format from the center of a 3*3 submatrix in clockwise direction. Else the program must print NO as the output.
+The program must accept a character matrix of size R*C and a string S as the input. The length of the string S is always 9. The program must print YES if the string S is 
+present in the spiral format from the center of a 3*3 submatrix in clockwise direction. Else the program must print NO as the output.
 
 Boundary Condition(s):
 3 <= R, C <= 50
