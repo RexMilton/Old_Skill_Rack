@@ -3,7 +3,8 @@ Daily Challenge
 ProgramID- 12722
  
 Alphabet Matrix - Encryption
-The program must accept a character matrix of size 5x5 containing unique lowercase alphabets and a string S containing lowercase alphabets and spaces as the input. Exactly one cell in the matrix contains two alphabets separated by the symbol forward slash (/). The program must encrypt the given string based on the following conditions.
+The program must accept a character matrix of size 5x5 containing unique lowercase alphabets and a string S containing lowercase alphabets and spaces as the input. 
+Exactly one cell in the matrix contains two alphabets separated by the symbol forward slash (/). The program must encrypt the given string based on the following conditions.
 - For each alphabet in S, the program must replace it with its row and column positions.
 - All space characters in S remain the same.
 Finally, the program must print the encrypted string S as the output.
